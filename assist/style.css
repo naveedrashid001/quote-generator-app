@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to left, #85FFBD, #FFFB7D);
+    padding: 30px;
+}
+.container h1 {
+    text-align: center;
+    color: orange;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.card {
+    width: 30%;
+    margin:0px auto;
+    background: white;
+    padding: 20px;
+    opacity: 0.7;
+}
+.container button {
+    padding: 10px 20px;
+    background: orange;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+#madeby{
+    color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
